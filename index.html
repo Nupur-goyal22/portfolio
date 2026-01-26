@@ -1,42 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nupur Goyal's Portfolio
-    </title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nupur | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
-    <!-- Background Animation -->
+
+  <!-- Background Animation -->
   <div class="bg-blobs">
     <div class="blob one"></div>
     <div class="blob two"></div>
     <div class="blob three"></div>
   </div>
-    <!-- Navbar -->
+
+  <!-- Navbar -->
   <header>
     <nav class="navbar">
-        <!-- <div class="container"> -->
-            <h2 class="logo">Nupur<span>.</span></h2>
-            <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#achievements">Achievements</a></li>
-                <!-- <li><a href="#research">Research</a></li> -->
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        <!-- </div> -->
-        <button class="menu-btn" id="menuBtn">☰</button>
+      <h2 class="logo">Nupur<span>.</span></h2>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <button class="menu-btn" id="menuBtn">☰</button>
     </nav>
-</header>
-    
-    <!-- Home -->
+  </header>
+
+  <!-- Home -->
   <section class="home" id="home">
     <div class="home-left">
       <h1>Hi, I'm <span>Nupur Goyal</span> 👋</h1>
@@ -44,181 +40,52 @@
       <p>
         I create modern, creative & responsive websites with smooth animations and premium UI.
       </p>
-                <div class="home-btns">
+
+      <div class="home-btns">
         <a href="#projects" class="btn primary">View Work</a>
         <a href="#contact" class="btn secondary">Hire Me</a>
       </div>
     </div>
 
-      <div class="home-right glass">
-      <img src="profile.jpg" alt="Profile Photo" class="profile">
-          <h3>Nupur Goyal</h3>
+    <div class="home-right glass">
+      <img src="profile.jpg" alt="Profile Photo" class="profile-img">
+      <h3>Nupur Goyal</h3>
       <p>Web Developer | BCA Student</p>
-<div class="social-links">
+
+      <div class="social-links">
         <a href="#">GitHub</a>
         <a href="#">LinkedIn</a>
         <a href="#">Instagram</a>
       </div>
     </div>
-           
-    </section>
-<!-- About -->
-    <section id="about" class="about">
-        <!-- <div class="container"> -->
-            <h2 class="section-title">About Me</h2>
-            <div class="about-container">
-                <img src="about.jpg" alt="About Image">
+  </section>
+
+  <!-- About -->
+  <section class="about" id="about">
+    <h2 class="section-title">About Me</h2>
+
+    <div class="about-container">
+      <div class="about-img glass">
+        <img src="images/about.jpg" alt="About Image">
       </div>
-                <div class="about-text">
-                    <h3>I'm a Creative Web Developer ✨</h3>
-                    <p>I am a BCA student at Amity University, Raipur, passionate about cybersecurity,
-                        ethical hacking, and Python. I learn through hands-on projects and hackathons, including SIH’24
-                        and SIH’25.</p>
-                    <p>I served as a Student Coordinator (2024) at Devity Club, where I helped manage events and student engagement.In 2025, I worked as an Open Source Lead at Devity Club, leading open-source activities and team collaboration (mid-term role).I also contributed as a Cultural Lead at TEDx, coordinating cultural segments and supporting smooth event execution.</p>
-                    <div class="education">
-                        <h3>Education</h3>
-                        <p><strong>Amity University, Chhattisgarh</strong></p>
-                        <p>Bachelor's degree in Computer Applications</p>
-                        <p>Currently in 2nd year</p>
-                        <p>CGPA (1st year): 9.10/10</p>
-                        <p>Expected Graduation: June 2027</p>
-                        <a href="resume.pdf" download class="btn btn-primary"><i class="fas fa-download"></i> Download
-                        Resume</a>
 
-                    </div>
-                </div>
-    </section>
+      <div class="about-text glass">
+        <h3>I'm a Creative Web Developer ✨</h3>
+        <p>
+          I am a BCA student and a passionate frontend developer who loves building
+          attractive websites with animations and modern UI.
+        </p>
 
-    <!-- Projects -->
-    <section id="projects" class="projects">
-        <!-- <div class="container"> -->
-            <h2 class="section-title">Projects</h2>
-            <div class="projects-grid">
-                <div class="project-card glass">
-                    <div class="project-info">
-                    <h3>Login Page with Basic Authentication </h3>
-                    <p>Create a login form with fields for email and password. Validate the input fields (e.g., 
-password should be at least 6 characters). Display an error message if login fails. Style the 
-page with CSS for responsiveness. 
+        <p>
+          Currently I’m learning React & building real projects to grow my skills.
+        </p>
 
-                    </p>
-                    <div class="tech-stack">
-                        <span class="tech-tag">Html</span>
-                        <span class="tech-tag">Css</span>
-                        <!-- <span class="tech-tag"></span> -->
-
-                    </div>
-                    <!-- <a href="#" class="https://github.com/nainasethia/CST_CS_T1.git">View Project →</a> -->
-                </div>
-                <div class="project-card glass">
-                    <div class="project-info">
-                    <h3>Food Delivery App </h3>
-                    <p>Home page with featured restaurants or food categories and Menu listing for each restaurant 
-and Add to Cart functionality and View Cart page with item quantity & total price and 
-Checkout button (can be simulated) and Responsive layout for mobile and desktop.
-                    </p>
-                    <div class="tech-stack">
-                        <span class="tech-tag">Html</span>
-                        <span class="tech-tag">Css</span>
-                        <span class="tech-tag">Java script</span>
-                        <!-- <span class="tech-tag">Image Processing</span>
-                        <span class="tech-tag">Encryption</span>
-                        <span class="tech-tag">Decryption</span>
-                        <span class="tech-tag">GUI</span> -->
-
-                    </div>
-                    <!-- <a href="#" class="https://github.com/nainasethia/CST_CS_T2.git">View Project →</a> -->
-                </div>
-                <div class="project-card glass">
-                    <div class="project-info">
-                    <h3>Weather app</h3>
-                    <p>Search weather by city name and Show current temperature, weather condition, humidity, 
-wind speed and Display relevant weather icon (sunny, cloudy, rain, etc.) and Responsive 
-design for both desktop and mobile.
-                    </p>
-                    <div class="tech-stack">
-                        <span class="tech-tag">Html</span>
-                        <span class="tech-tag">Css</span>
-
-                    </div>
-                    <!-- <a href="#" class="https://github.com/nainasethia/CST_CS_T3.git">View Project →</a> -->
-                </div>
-                <!-- <div class="project-card">
-                    <h3></h3>
-                    <p>I designed a controlled-environment keylogger that records keystrokes and securely logs data for
-                        analysis, focusing on ethical cybersecurity practices while improving my Python and
-                        file-handling skills.
-
-                    </p>
-                    <div class="tech-stack">
-                        <span class="tech-tag">Python</span>
-                        <span class="tech-tag">Keylogger</span>
-                        <span class="tech-tag">File Handling</span>
-                        <span class="tech-tag">Encryption</span>
-                        <span class="tech-tag">Logging</span> -->
-
-                    <!-- </div> -->
-                    <!-- <a href="#" class="https://github.com/nainasethia/CST_CS_T4.git">View Project →</a> -->
-                <!-- </div> -->
-                <div class="project-card glass">
-                    <div class="project-info">
-                    <h3>Network Management Project</h3>
-                    <p>I configured enterprise-style servers on Red Hat Enterprise Linux, setting up domains, secure
-                        access controls, and managing network resources to build strong Linux and infrastructure skills.
-
-
-                    </p>
-                    <div class="tech-stack">
-                        <span class="tech-tag">Linux</span>
-                        <span class="tech-tag">Linux Command</span>
-                        <span class="tech-tag">DNS Server</span>
-
-                    </div>
-                    <!-- <a href="#" class="https://github.com/nainasethia/Network-Management-Project.git">View Project →</a> -->
-                </div>
-                <div class="project-card glass">
-                    <div class="project-info">
-                    <h3>Course/Admin Management System</h3>
-                    <p>I built a secure multi-role PHP–MySQL web app with core user and admin features, added
-                        JavaScript-based client-side validation, and deployed it on WampServer with a structured
-                        student/admin database system.
-
-
-                    </p>
-                    <div class="tech-stack">
-                        <span class="tech-tag">PHP</span>
-                        <span class="tech-tag">MySQL</span>
-                        <span class="tech-tag">JavaScript</span>
-                        <span class="tech-tag">WampServer</span>
-                        <span class="tech-tag">Bootstrap</span>
-                        <span class="tech-tag">HTML/CSS</span>
-
-                    </div>
-                    <!-- <a href="#" class="https://github.com/nainasethia/Student-Admin-Management-System.git">View Project
-                        →</a> -->
-                </div>
-                <div class="project-card glass">
-                    <div class="project-info">
-                    <h3>Feature-Rich Utility App </h3>
-                    <p>I built a feature-rich Android app using Java, Android Studio, and Firebase for authentication
-                        and data storage, adding tools like a calculator, torch, connectivity toggles, camera, media
-                        player, and sensor features, while managing the full Firebase setup, dependencies, and
-                        permissions.
-
-                    </p>
-                    <div class="tech-stack">
-                        <span class="tech-tag">Java</span>
-                        <span class="tech-tag">Android Studio</span>
-                        <span class="tech-tag">Firebase</span>
-
-                    </div>
-                    <!-- <a href="#" class="https://github.com/nainasethia/Feature-Rich-Utility-App.git">View Project →</a> -->
-                </div>
-            </div>
-        </div>
-    </section>
-
-                    <!-- Skills -->
+        <a href="resume.pdf" class="btn primary">Download Resume</a>
+      </div>
+    </div>
+  </section>
+    
+        <!-- Skills -->
     <section id="skills" class="skills">
         <!-- <div class="container"> -->
             <h2 class="section-title">Skills</h2>
@@ -292,111 +159,88 @@ design for both desktop and mobile.
         </div>
     </section>
 
-    <section id="achievements" class="achievements">
-        <div class="container">
-            <h2 class="section-title">Achievements & Certifications</h2>
-            <div class="achievements-grid">
-                <div class="achievement-card">
-                    <i class="fas fa-trophy achievement-icon"></i>
-                    <h3>Prakalp</h3>
-                    <p class="achievement-date">3 and 4 april 2025</p>
-                    <p>secure 3rd position organized by the Jhulelal Institute  og Technology, Nagpur</p>
-                </div>
-                <!-- <div class="achievement-card">
-                    <i class="fas fa-certificate achievement-icon"></i>
-                    <h3>AWS Certified Cloud Practitioner</h3>
-                    <p class="achievement-date">Issued: January 2025</p>
-                    <p>Foundational understanding of AWS Cloud services and architecture</p>
-                </div> -->
-                <div class="achievement-card">
-                    <i class="fas fa-medal achievement-icon"></i>
-                    <h3>Hackathon Winner</h3>
-                    <p class="achievement-date">University Hackathon in 2024.</p>
-                    <p>First place for developing an innovative career guidance.</p>
-                </div>
-                <div class="achievement-card">
-                    <i class="fas fa-certificate achievement-icon"></i>
-                    <h3>Hackathon Winner</h3>
-                    <p class="achievement-date">University Hackathon in 2025.</p>
-                    <p>First place for developing an innovative career guidance.</p>
-                </div>
-                <!-- <div class="achievement-card">
-                    <i class="fas fa-award achievement-icon"></i>
-                    <h3>Best Research Paper Award</h3>
-                    <p class="achievement-date">Student Conference 2024</p>
-                    <p>Awarded for outstanding research in machine learning applications</p>
-                </div> -->
-                <div class="achievement-card">
-                    <i class="fas fa-certificate achievement-icon"></i>
-                    <h3> Front-End Developer Certificate</h3>
-                    <p class="achievement-date">Issued: 6 august 2025</p>
-                    <p>Professional certificate in modern front-end development</p>
-                </div>
-            </div>
-        </div>
-    </section>
+  <!-- Projects -->
+  <section class="projects" id="projects">
+    <h2 class="section-title">Projects</h2>
 
-    <!-- <section id="research" class="research">
-        <div class="container">
-            <h2 class="section-title">Research Papers</h2>
-            <div class="research-list">
-                <div class="research-paper">
-                    <div class="paper-header">
-                        <i class="fas fa-file-alt paper-icon"></i>
-                        <div class="paper-info">
-                            <h3>Machine Learning Approaches for Predictive Healthcare Analytics</h3>
-                            <p class="paper-authors">John Doe, Dr. Jane Smith</p>
-                            <p class="paper-venue">International Conference on AI in Healthcare, 2024</p>
-                        </div>
-                    </div>
-                    <p class="paper-abstract">This paper explores the application of machine learning algorithms in
-                        predicting patient outcomes and optimizing healthcare delivery systems.</p>
-                    <div class="paper-links">
-                        <a href="#" class="paper-link"><i class="fas fa-download"></i> PDF</a>
-                        <a href="#" class="paper-link"><i class="fas fa-link"></i> DOI</a>
-                    </div>
-                </div>
-                <div class="research-paper">
-                    <div class="paper-header">
-                        <i class="fas fa-file-alt paper-icon"></i>
-                        <div class="paper-info">
-                            <h3>Optimizing Web Performance Through Advanced Caching Strategies</h3>
-                            <p class="paper-authors">John Doe, Prof. Michael Johnson</p>
-                            <p class="paper-venue">Journal of Web Technologies, Vol. 15, 2024</p>
-                        </div>
-                    </div>
-                    <p class="paper-abstract">An investigation into modern caching techniques and their impact on web
-                        application performance and user experience.</p>
-                    <div class="paper-links">
-                        <a href="#" class="paper-link"><i class="fas fa-download"></i> PDF</a>
-                        <a href="#" class="paper-link"><i class="fas fa-link"></i> DOI</a>
-                    </div>
-                </div>
-                <div class="research-paper">
-                    <div class="paper-header">
-                        <i class="fas fa-file-alt paper-icon"></i>
-                        <div class="paper-info">
-                            <h3>Blockchain Applications in Supply Chain Management</h3>
-                            <p class="paper-authors">John Doe, Sarah Williams, Dr. Robert Brown</p>
-                            <p class="paper-venue">IEEE Blockchain Conference, 2023</p>
-                        </div>
-                    </div>
-                    <p class="paper-abstract">This research examines the potential of blockchain technology to enhance
-                        transparency and efficiency in supply chain operations.</p>
-                    <div class="paper-links">
-                        <a href="#" class="paper-link"><i class="fas fa-download"></i> PDF</a>
-                        <a href="#" class="paper-link"><i class="fas fa-link"></i> DOI</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
+    <div class="projects-grid">
 
-                    
-               <!-- contact -->     
-    <section id="contact" class="contact">
-        <!-- <div class="container"> -->
-        <section class="contact" id="contact">
+      <div class="project-card glass">
+        <!-- <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&q=60" alt="Project"> -->
+        <div class="project-info">
+          <h3>Portfolio Website</h3>
+          <p>Responsive portfolio website using HTML, CSS & JS.</p>
+          <a href="#" class="btn primary small">Live Demo</a>
+        </div>
+      </div>
+
+      <div class="project-card glass">
+        <!-- <img src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=800&q=60" alt="Project"> -->
+        <div class="project-info">
+          <h3>Weather App</h3>
+          <p>Weather app using API + JavaScript with modern UI.</p>
+          <a href="#" class="btn primary small">Live Demo</a>
+        </div>
+      </div>
+
+      <div class="project-card glass">
+        <!-- <img src="https://images.unsplash.com/photo-1531297484001-80022131f5a1?auto=format&fit=crop&w=800&q=60" alt="Project"> -->
+        <div class="project-info">
+          <h3>Login Page with Basic Authentication </h3>
+          <p>Create a login form with fields for email and password. Validate the input fields (e.g., 
+password should be at least 6 characters). Display an error message if login fails. Style the 
+page with CSS for responsiveness. </p>
+          <a href="#" class="btn primary small">Live Demo</a>
+        </div>
+      </div>
+
+        <div class="project-card glass">
+        <!-- <img src="https://images.unsplash.com/photo-1531297484001-80022131f5a1?auto=format&fit=crop&w=800&q=60" alt="Project"> -->
+        <div class="project-info">
+          <h3>Food Delivery App </h3>
+          <p>Home page with featured restaurants or food categories and Menu listing for each restaurant 
+and Add to Cart functionality and View Cart page with item quantity & total price and 
+Checkout button (can be simulated) and Responsive layout for mobile and desktop. </p>
+          <a href="#" class="btn primary small">Live Demo</a>
+        </div>
+      </div>
+
+         <div class="project-card glass">
+        <!-- <img src="https://images.unsplash.com/photo-1531297484001-80022131f5a1?auto=format&fit=crop&w=800&q=60" alt="Project"> -->
+        <div class="project-info">
+          <h3>Network Management Project </h3>
+          <p> I configured enterprise-style servers on Red Hat Enterprise Linux, setting up domains, secure
+                        access controls, and managing network resources to build strong Linux and infrastructure skills.</p>
+          <a href="#" class="btn primary small">Live Demo</a>
+        </div>
+      </div>
+        <div class="project-card glass">
+        <!-- <img src="https://images.unsplash.com/photo-1531297484001-80022131f5a1?auto=format&fit=crop&w=800&q=60" alt="Project"> -->
+        <div class="project-info">
+          <h3>Course/Admin Management System </h3>
+          <p>I built a secure multi-role PHP–MySQL web app with core user and admin features, added
+                        JavaScript-based client-side validation, and deployed it on WampServer with a structured
+                        Course/admin database system. </p>
+          <a href="#" class="btn primary small">Live Demo</a>
+        </div>
+      </div>
+
+         <div class="project-card glass">
+        <!-- <img src="https://images.unsplash.com/photo-1531297484001-80022131f5a1?auto=format&fit=crop&w=800&q=60" alt="Project"> -->
+        <div class="project-info">
+          <h3>Feature-Rich Utility App</h3>
+          <p>I built a feature-rich Android app using Java, Android Studio, and Firebase for authentication
+                        and data storage, adding tools like a calculator, torch, connectivity toggles, camera, media
+                        player, and sensor features, while managing the full Firebase setup, dependencies, and
+                        permissions. </p>
+          <a href="#" class="btn primary small">Live Demo</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- contact -->
+  <section class="contact" id="contact">
     <h2 class="section-title">Contact Me</h2>
 
     <div class="contact-box glass">
@@ -408,49 +252,13 @@ design for both desktop and mobile.
       </form>
     </div>
   </section>
-        <footer>
+
+  <footer>
     <p>© 2026 | Made with 💜 by Nupur</p>
   </footer>
-            <h2 class="section-title">Get In Touch</h2>
-            <p class="contact-intro">I'm always open to new opportunities and collaborations. Feel free to reach out!
-            </p>
-            <div class="contact-methods">
-                <div class="contact-item">
-                    <i class="fas fa-envelope contact-icon"></i>
-                    <h3>Email</h3>
-                    <p><a href="mailto:john.doe@email.com">nupurgoyal55@gmail.com</a></p>
-                </div>
-                <div class="contact-item">
-                    <i class="fab fa-linkedin contact-icon"></i>
-                    <h3>LinkedIn</h3>
-                    <p><a href="#" target="_blank">https://www.linkedin.com/in/nupur-goyal01/</a></p>
-                </div>
-                <div class="contact-item">
-                    <i class="fab fa-github contact-icon"></i>
-                    <h3>GitHub</h3>
-                    <p><a href="#" target="_blank">https://github.com/Nupur-goyal22/</a></p>
-                </div>
-            </div>
-        </div>
-    </section>
 
-    <footer>
-        <div class="container">
-            <div class="footer-social">
-                <a href="mailto:john.doe@email.com" class="footer-icon" title="Email">
-                    <i class="fas fa-envelope"></i>
-                </a>
-                <a href="#" target="_blank" class="footer-icon" title="LinkedIn">
-                    <i class="fab fa-linkedin"></i>
-                </a>
-                <a href="#" target="_blank" class="footer-icon" title="GitHub">
-                    <i class="fab fa-github"></i>
-                </a>
-            </div>
-            <!-- <p>&copy; 2025 John Doe. All rights reserved.</p> -->
-        </div>
-    </footer>
+  <script src="script.js"></script>
 </body>
-
-
 </html>
+
+
