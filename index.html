@@ -6,9 +6,10 @@
   <title>Nupur | Portfolio</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
 
-  <!-- Background Animation -->
+  <!-- Background Blobs -->
   <div class="bg-blobs">
     <div class="blob one"></div>
     <div class="blob two"></div>
@@ -48,14 +49,16 @@
     </div>
 
     <div class="home-right glass">
+      <!-- ✅ Put your photo in same folder and name it profile.jpg -->
       <img src="profile.jpg" alt="Profile Photo" class="profile-img">
+
       <h3>Nupur Goyal</h3>
       <p>Web Developer | BCA Student</p>
 
       <div class="social-links">
-        <a href="#">GitHub</a>
-        <a href="#">LinkedIn</a>
-        <a href="#">Instagram</a>
+        <a href="#" target="_blank">GitHub</a>
+        <a href="#" target="_blank">LinkedIn</a>
+        <a href="#" target="_blank">Instagram</a>
       </div>
     </div>
   </section>
@@ -75,89 +78,92 @@
           I am a BCA student and a passionate frontend developer who loves building
           attractive websites with animations and modern UI.
         </p>
-
         <p>
           Currently I’m learning React & building real projects to grow my skills.
         </p>
 
-        <a href="resume.pdf" class="btn primary">Download Resume</a>
+        <!-- ✅ Put resume.pdf in same folder -->
+        <a href="resume.pdf" class="btn primary" target="_blank">Download Resume</a>
       </div>
     </div>
   </section>
-    
-        <!-- Skills -->
-    <section id="skills" class="skills">
-        <!-- <div class="container"> -->
-            <h2 class="section-title">Skills</h2>
-            <div class="skills-grid">
-                <div class="skill-category">
-                    <h3>Languages</h3>
-                    <ul>
-                        <li>Java</li>
-                        <li>C & C++</li>
-                        <li>Python</li>
-                    </ul>
-                </div>
-                <div class="skill-category">
-                    <h3>Tools</h3>
-                    <ul>
-                        <li>Git</li>
-                        <li>VS Code</li>
-                        <li>Linux</li>
-                        <li>Kali Linux</li>
-                        <li>Networking</li>
-                        <li>WampServer</li>
-                        <li>Android Studio</li>
 
-                    </ul>
-                </div>
-                <div class="skill-category">
-                    <h3>Version Control</h3>
-                    <ul>
-                        <li>Git</li>
-                        <li>GitHub</li>
-                    </ul>
-                </div>
-                <div class="skill-category">
-                    <h3>Database</h3>
-                    <ul>
-                        <li>MySQL</li>
-                        <li>MySQLite</li>
-                    </ul>
-                </div>
-                <div class="skill-category">
-                    <h3>Web Development</h3>
-                    <ul>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>JavaScript</li>
-                        <li>PHP</li>
-                    </ul>
-                </div>
-                <div class="skill-category">
-                    <h3>Soft Skills</h3>
-                    <ul>
-                        <li>Excellent communication</li>
-                        <li>Team Management</li>
-                        <li>Leadership</li>
-                        <li>Decision Making</li>
-                        <li>Agility</li>
-                        <li>Creative and Critical Thinking</li>
-                        <li>Emotional Intelligence</li>
-                        <li>Problem Solving</li>
+  <!-- Skills -->
+  <section id="skills" class="skills">
+    <h2 class="section-title">Skills</h2>
 
-                    </ul>
-                </div>
-                <div class="skill-category">
-                    <h3>Languages</h3>
-                    <ul>
-                        <li>English</li>
-                        <li>Hindi</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
+    <div class="skills-grid">
+
+      <div class="skill-category">
+        <h3>Languages</h3>
+        <ul>
+          <li>Java</li>
+          <li>C & C++</li>
+          <li>Python</li>
+        </ul>
+      </div>
+
+      <div class="skill-category">
+        <h3>Tools</h3>
+        <ul>
+          <li>Git</li>
+          <li>VS Code</li>
+          <li>Linux</li>
+          <li>Kali Linux</li>
+          <li>Networking</li>
+          <li>WampServer</li>
+          <li>Android Studio</li>
+        </ul>
+      </div>
+
+      <div class="skill-category">
+        <h3>Version Control</h3>
+        <ul>
+          <li>Git</li>
+          <li>GitHub</li>
+        </ul>
+      </div>
+
+      <div class="skill-category">
+        <h3>Database</h3>
+        <ul>
+          <li>MySQL</li>
+          <li>SQLite</li>
+        </ul>
+      </div>
+
+      <div class="skill-category">
+        <h3>Web Development</h3>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>PHP</li>
+        </ul>
+      </div>
+
+      <div class="skill-category">
+        <h3>Soft Skills</h3>
+        <ul>
+          <li>Communication</li>
+          <li>Team Management</li>
+          <li>Leadership</li>
+          <li>Decision Making</li>
+          <li>Creative Thinking</li>
+          <li>Problem Solving</li>
+        </ul>
+      </div>
+
+      <div class="skill-category">
+        <h3>Languages Spoken</h3>
+        <ul>
+          <li>English</li>
+          <li>Hindi</li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
 
   <!-- Projects -->
   <section class="projects" id="projects">
@@ -166,7 +172,6 @@
     <div class="projects-grid">
 
       <div class="project-card glass">
-        <!-- <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&q=60" alt="Project"> -->
         <div class="project-info">
           <h3>Portfolio Website</h3>
           <p>Responsive portfolio website using HTML, CSS & JS.</p>
@@ -175,7 +180,6 @@
       </div>
 
       <div class="project-card glass">
-        <!-- <img src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=800&q=60" alt="Project"> -->
         <div class="project-info">
           <h3>Weather App</h3>
           <p>Weather app using API + JavaScript with modern UI.</p>
@@ -184,75 +188,63 @@
       </div>
 
       <div class="project-card glass">
-        <!-- <img src="https://images.unsplash.com/photo-1531297484001-80022131f5a1?auto=format&fit=crop&w=800&q=60" alt="Project"> -->
         <div class="project-info">
-          <h3>Login Page with Basic Authentication </h3>
-          <p>Create a login form with fields for email and password. Validate the input fields (e.g., 
-password should be at least 6 characters). Display an error message if login fails. Style the 
-page with CSS for responsiveness. </p>
+          <h3>Login Page (Authentication)</h3>
+          <p>Email/Password validation + responsive design.</p>
           <a href="#" class="btn primary small">Live Demo</a>
         </div>
       </div>
 
-        <div class="project-card glass">
-        <!-- <img src="https://images.unsplash.com/photo-1531297484001-80022131f5a1?auto=format&fit=crop&w=800&q=60" alt="Project"> -->
+      <div class="project-card glass">
         <div class="project-info">
-          <h3>Food Delivery App </h3>
-          <p>Home page with featured restaurants or food categories and Menu listing for each restaurant 
-and Add to Cart functionality and View Cart page with item quantity & total price and 
-Checkout button (can be simulated) and Responsive layout for mobile and desktop. </p>
+          <h3>Food Delivery App</h3>
+          <p>Add to cart + total price + checkout simulation.</p>
           <a href="#" class="btn primary small">Live Demo</a>
         </div>
       </div>
 
-         <div class="project-card glass">
-        <!-- <img src="https://images.unsplash.com/photo-1531297484001-80022131f5a1?auto=format&fit=crop&w=800&q=60" alt="Project"> -->
+      <div class="project-card glass">
         <div class="project-info">
-          <h3>Network Management Project </h3>
-          <p> I configured enterprise-style servers on Red Hat Enterprise Linux, setting up domains, secure
-                        access controls, and managing network resources to build strong Linux and infrastructure skills.</p>
-          <a href="#" class="btn primary small">Live Demo</a>
-        </div>
-      </div>
-        <div class="project-card glass">
-        <!-- <img src="https://images.unsplash.com/photo-1531297484001-80022131f5a1?auto=format&fit=crop&w=800&q=60" alt="Project"> -->
-        <div class="project-info">
-          <h3>Course/Admin Management System </h3>
-          <p>I built a secure multi-role PHP–MySQL web app with core user and admin features, added
-                        JavaScript-based client-side validation, and deployed it on WampServer with a structured
-                        Course/admin database system. </p>
+          <h3>Network Management Project</h3>
+          <p>Configured enterprise servers on Linux + security and domains.</p>
           <a href="#" class="btn primary small">Live Demo</a>
         </div>
       </div>
 
-         <div class="project-card glass">
-        <!-- <img src="https://images.unsplash.com/photo-1531297484001-80022131f5a1?auto=format&fit=crop&w=800&q=60" alt="Project"> -->
+      <div class="project-card glass">
+        <div class="project-info">
+          <h3>Course/Admin Management System</h3>
+          <p>Secure PHP-MySQL app with admin and user features.</p>
+          <a href="#" class="btn primary small">Live Demo</a>
+        </div>
+      </div>
+
+      <div class="project-card glass">
         <div class="project-info">
           <h3>Feature-Rich Utility App</h3>
-          <p>I built a feature-rich Android app using Java, Android Studio, and Firebase for authentication
-                        and data storage, adding tools like a calculator, torch, connectivity toggles, camera, media
-                        player, and sensor features, while managing the full Firebase setup, dependencies, and
-                        permissions. </p>
+          <p>Android app with Firebase + tools like torch, calculator, media etc.</p>
           <a href="#" class="btn primary small">Live Demo</a>
         </div>
       </div>
+
     </div>
   </section>
 
-  <!-- contact -->
+  <!-- Contact -->
   <section class="contact" id="contact">
     <h2 class="section-title">Contact Me</h2>
 
     <div class="contact-box glass">
       <form id="contactForm">
-        <input type="text" placeholder="Your Name" required>
-        <input type="email" placeholder="Your Email" required>
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
         <textarea rows="5" placeholder="Your Message..." required></textarea>
         <button type="submit" class="btn primary">Send Message 🚀</button>
       </form>
     </div>
   </section>
 
+  <!-- Footer -->
   <footer>
     <p>© 2026 | Made with 💜 by Nupur</p>
   </footer>
@@ -260,7 +252,3 @@ Checkout button (can be simulated) and Responsive layout for mobile and desktop.
   <script src="script.js"></script>
 </body>
 </html>
-
-
-
-
