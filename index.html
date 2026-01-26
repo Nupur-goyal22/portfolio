@@ -11,9 +11,17 @@
 </head>
 
 <body>
+    <!-- Background Animation -->
+  <div class="bg-blobs">
+    <div class="blob one"></div>
+    <div class="blob two"></div>
+    <div class="blob three"></div>
+  </div>
+    <!-- Navbar -->
+  <header>
     <nav class="navbar">
-        <div class="container">
-            <h1 class="logo"></h1>
+        <!-- <div class="container"> -->
+            <h2 class="logo">Nupur<span>.</span></h2>
             <ul class="nav-links">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
@@ -23,33 +31,47 @@
                 <!-- <li><a href="#research">Research</a></li> -->
                 <li><a href="#contact">Contact</a></li>
             </ul>
-        </div>
+        <!-- </div> -->
+        <button class="menu-btn" id="menuBtn">☰</button>
     </nav>
+</header>
+    
+    <!-- Home -->
+  <section class="home" id="home">
+    <div class="home-left">
+      <h1>Hi, I'm <span>Nupur Goyal</span> 👋</h1>
+      <h2 id="typingText">Frontend Developer</h2>
+      <p>
+        I create modern, creative & responsive websites with smooth animations and premium UI.
+      </p>
+                <div class="home-btns">
+        <a href="#projects" class="btn primary">View Work</a>
+        <a href="#contact" class="btn secondary">Hire Me</a>
+      </div>
+    </div>
 
-    <section id="home" class="hero">
-        <div class="container hero-container">
-            <div class="hero-content">
-                <h2>Hi, I'm <span class="highlight">Nupur Goyal</span></h2>
-                <p class="subtitle">BCA Student | Developer | Problem Solver</p>
-                <p class="description">Passionate about creating innovative solutions and learning new technologies</p>
-                <div class="cta-buttons">
-                    <a href="resume.pdf" download class="btn btn-primary"><i class="fas fa-download"></i> Download
-                        Resume</a>
-                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
-                </div>
-            </div>
-            <div class="hero-image">
-                <img src="profile.jpg" alt="John Doe Profile Picture">
-            </div>
-        </div>
+      <div class="home-right glass">
+      <img src="profile.jpg" alt="Profile Photo" class="profile">
+          <h3>Nupur Goyal</h3>
+      <p>Web Developer | BCA Student</p>
+<div class="social-links">
+        <a href="#">GitHub</a>
+        <a href="#">LinkedIn</a>
+        <a href="#">Instagram</a>
+      </div>
+    </div>
+           
     </section>
-
+<!-- About -->
     <section id="about" class="about">
-        <div class="container">
+        <!-- <div class="container"> -->
             <h2 class="section-title">About Me</h2>
-            <div class="about-content">
+            <div class="about-container">
+                <img src="about.jpg" alt="About Image">
+      </div>
                 <div class="about-text">
-                    <p>I’m Nupur Goyal, a BCA student at Amity University, Raipur, passionate about cybersecurity,
+                    <h3>I'm a Creative Web Developer ✨</h3>
+                    <p>I am a BCA student at Amity University, Raipur, passionate about cybersecurity,
                         ethical hacking, and Python. I learn through hands-on projects and hackathons, including SIH’24
                         and SIH’25.</p>
                     <p>I served as a Student Coordinator (2024) at Devity Club, where I helped manage events and student engagement.In 2025, I worked as an Open Source Lead at Devity Club, leading open-source activities and team collaboration (mid-term role).I also contributed as a Cultural Lead at TEDx, coordinating cultural segments and supporting smooth event execution.</p>
@@ -60,18 +82,20 @@
                         <p>Currently in 2nd year</p>
                         <p>CGPA (1st year): 9.10/10</p>
                         <p>Expected Graduation: June 2027</p>
+                        <a href="resume.pdf" download class="btn btn-primary"><i class="fas fa-download"></i> Download
+                        Resume</a>
 
                     </div>
                 </div>
-            </div>
-        </div>
     </section>
 
+    <!-- Projects -->
     <section id="projects" class="projects">
-        <div class="container">
+        <!-- <div class="container"> -->
             <h2 class="section-title">Projects</h2>
             <div class="projects-grid">
-                <div class="project-card">
+                <div class="project-card glass">
+                    <div class="project-info">
                     <h3>Login Page with Basic Authentication </h3>
                     <p>Create a login form with fields for email and password. Validate the input fields (e.g., 
 password should be at least 6 characters). Display an error message if login fails. Style the 
@@ -86,7 +110,8 @@ page with CSS for responsiveness.
                     </div>
                     <!-- <a href="#" class="https://github.com/nainasethia/CST_CS_T1.git">View Project →</a> -->
                 </div>
-                <div class="project-card">
+                <div class="project-card glass">
+                    <div class="project-info">
                     <h3>Food Delivery App </h3>
                     <p>Home page with featured restaurants or food categories and Menu listing for each restaurant 
 and Add to Cart functionality and View Cart page with item quantity & total price and 
@@ -104,7 +129,8 @@ Checkout button (can be simulated) and Responsive layout for mobile and desktop.
                     </div>
                     <!-- <a href="#" class="https://github.com/nainasethia/CST_CS_T2.git">View Project →</a> -->
                 </div>
-                <div class="project-card">
+                <div class="project-card glass">
+                    <div class="project-info">
                     <h3>Weather app</h3>
                     <p>Search weather by city name and Show current temperature, weather condition, humidity, 
 wind speed and Display relevant weather icon (sunny, cloudy, rain, etc.) and Responsive 
@@ -134,7 +160,8 @@ design for both desktop and mobile.
                     <!-- </div> -->
                     <!-- <a href="#" class="https://github.com/nainasethia/CST_CS_T4.git">View Project →</a> -->
                 <!-- </div> -->
-                <div class="project-card">
+                <div class="project-card glass">
+                    <div class="project-info">
                     <h3>Network Management Project</h3>
                     <p>I configured enterprise-style servers on Red Hat Enterprise Linux, setting up domains, secure
                         access controls, and managing network resources to build strong Linux and infrastructure skills.
@@ -149,7 +176,8 @@ design for both desktop and mobile.
                     </div>
                     <!-- <a href="#" class="https://github.com/nainasethia/Network-Management-Project.git">View Project →</a> -->
                 </div>
-                <div class="project-card">
+                <div class="project-card glass">
+                    <div class="project-info">
                     <h3>Course/Admin Management System</h3>
                     <p>I built a secure multi-role PHP–MySQL web app with core user and admin features, added
                         JavaScript-based client-side validation, and deployed it on WampServer with a structured
@@ -169,7 +197,8 @@ design for both desktop and mobile.
                     <!-- <a href="#" class="https://github.com/nainasethia/Student-Admin-Management-System.git">View Project
                         →</a> -->
                 </div>
-                <div class="project-card">
+                <div class="project-card glass">
+                    <div class="project-info">
                     <h3>Feature-Rich Utility App </h3>
                     <p>I built a feature-rich Android app using Java, Android Studio, and Firebase for authentication
                         and data storage, adding tools like a calculator, torch, connectivity toggles, camera, media
@@ -189,8 +218,9 @@ design for both desktop and mobile.
         </div>
     </section>
 
+                    <!-- Skills -->
     <section id="skills" class="skills">
-        <div class="container">
+        <!-- <div class="container"> -->
             <h2 class="section-title">Skills</h2>
             <div class="skills-grid">
                 <div class="skill-category">
@@ -362,8 +392,25 @@ design for both desktop and mobile.
         </div>
     </section> -->
 
+                    
+               <!-- contact -->     
     <section id="contact" class="contact">
-        <div class="container">
+        <!-- <div class="container"> -->
+        <section class="contact" id="contact">
+    <h2 class="section-title">Contact Me</h2>
+
+    <div class="contact-box glass">
+      <form id="contactForm">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea rows="5" placeholder="Your Message..." required></textarea>
+        <button type="submit" class="btn primary">Send Message 🚀</button>
+      </form>
+    </div>
+  </section>
+        <footer>
+    <p>© 2026 | Made with 💜 by Nupur</p>
+  </footer>
             <h2 class="section-title">Get In Touch</h2>
             <p class="contact-intro">I'm always open to new opportunities and collaborations. Feel free to reach out!
             </p>
@@ -404,5 +451,6 @@ design for both desktop and mobile.
         </div>
     </footer>
 </body>
+
 
 </html>
